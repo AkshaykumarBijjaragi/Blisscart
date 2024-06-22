@@ -25,7 +25,8 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
-        loader: <LandingLoader />,
+        loader: LandingLoader,
+        //LandingLoader is not a component but a function
         errorElement: <ErrorElement />,
       },
       {
