@@ -7,3 +7,4 @@ export {default as ErrorElement } from "./ErrorElement";
 export { default as FeaturedProducts } from "./FeaturedProducts";
 export { default as productsGrid } from "./ProductsGrid";
 export { default as sectionTitle } from "./SectionTitle";
+export { default as Loading } from "./Loading";
