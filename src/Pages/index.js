@@ -9,4 +9,4 @@ export {default as Orders} from "./Orders";
 export {default as Products} from "./Products";
 export {default as Register} from "./Register";
 export {default as SingleProduct} from "./SingleProduct";
-export {default as LandingLoader} from "./Landing";
+export { default as landingLoader } from "./Landing";
