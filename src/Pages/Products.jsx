@@ -1,8 +1,13 @@
+import { Filters, PaginationContainer, ProductsContainer } from "../components";
 
 const Products = () => {
   return (
-    <div>Products</div>
-  )
-}
+    <div>
+      <Filters />
+      <ProductsContainer />
+      <PaginationContainer />
+    </div>
+  );
+};
 
-export default Products
+export default Products;
