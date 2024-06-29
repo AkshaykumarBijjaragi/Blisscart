@@ -3,7 +3,7 @@ import { Filters, PaginationContainer, ProductsContainer } from "../components";
 const Products = () => {
   return (
     <div>
-      <Filters />
+      <Filters/>
       <ProductsContainer />
       <PaginationContainer />
     </div>
